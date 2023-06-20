@@ -1,0 +1,19 @@
+.custom-footer {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footcont {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 107.02%;
+    text-decoration: none;
+    /* identical to box height, or 15px */
+    text-align: center;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    color: #000000;
+}

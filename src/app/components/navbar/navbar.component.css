@@ -1,0 +1,44 @@
+.n1 {
+    margin-right: -15px;
+    margin-left: -20px;
+}
+
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 70px;
+    margin-top: 0%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link active {
+    color: white;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    margin-left: 250px;
+}
+
+.img-fluid {
+    width: 100px;
+    margin-left: 180px;
+}
+
+.btn1 {
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color: white;
+}

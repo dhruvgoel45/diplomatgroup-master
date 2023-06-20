@@ -1,0 +1,57 @@
+.footcont {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 107.02%;
+    text-decoration: none;
+    /* identical to box height, or 15px */
+    text-align: center;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.bg-image {
+    background-image: url('../../../assets/images/backcont.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.contus {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.6885px;
+    line-height: 46px;
+    text-align: justify;
+    color: #C4C4C4;
+}
+
+.contuss {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5188px;
+    line-height: 25px;
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+.input-field {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.4581px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 0.27em;
+    color: #C4C4C4;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #C4C4C4;
+}
