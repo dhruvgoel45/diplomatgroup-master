@@ -36,7 +36,7 @@ component :ContactusComponent
   component: PgolflinkComponent
 },
 {
-  path:"Gallery",
+  path:"gallery",
   component: GalleryComponent
 },
 

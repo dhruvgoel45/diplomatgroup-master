@@ -59,13 +59,12 @@
 
 .wrapper {
     display: flex;
-    max-width: 1200px;
     height: 200px;
     position: relative;
     /* vertical-align: top;
-    align-items: center;
-    justify-content: center;
-    text-align: center; */
+      align-items: center;
+      justify-content: center;
+      text-align: center; */
     margin-left: 50px;
     margin-right: 50px;
 }

@@ -80,3 +80,48 @@
     display: flex;
     align-items: center;
 }
+
+.img {
+    width: 100%;
+    height: 650px;
+    margin-top: -10px;
+    margin-right: -40px;
+}
+
+.image6::after {
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -1190px;
+    width: 70%;
+    height: 85%;
+    background: linear-gradient(to top, rgba(25, 22, 22, 0.7) 0%, rgba(117, 113, 113, 0) 100%);
+    /* background-color: rgb(41, 38, 38); */
+    clip-path: ellipse(50% 90% at 50% 140%);
+}
+
+.imb {
+    position: absolute;
+    border: none;
+    bottom: -30px;
+    left: 300px;
+    color: white;
+}
+
+
+/* .imb :hover{
+      cursor: pointer;
+    } */
+
+.imb2 {
+    position: absolute;
+    /* bottom: 2px; */
+    bottom: -30px;
+    right: 300px;
+    color: white;
+}
+
+.img4 {
+    margin-top: -300px;
+    margin-left: 605px;
+}
