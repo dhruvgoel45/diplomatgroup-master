@@ -1,0 +1,235 @@
+.ima1 {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust the bottom spacing as needed */
+    left: 20%;
+    transform: translateX(-50%);
+    border: none;
+    color: white;
+    font-size: 12px;
+    /* Your button styles */
+}
+
+.ima2 {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust the bottom spacing as needed */
+    left: 80%;
+    transform: translateX(-50%);
+    border: none;
+    color: white;
+    font-size: 12px;
+    /* Your button styles */
+}
+
+.a2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: -120px;
+    height: 800px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img {
+    /* height: 650px; */
+    /* object-fit: cover;
+    object; */
+    width: 100%;
+    height: 600px;
+    margin-top: -0px;
+    margin-right: -40px;
+}
+
+.overlay {
+    /* margin-top: -500px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Poppins;
+    Font-style: Mixed;
+    Font-size: 100px;
+    width: 900px;
+    Line-height: 125px;
+    Line-height: 104%;
+    position: absolute;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+    height: 650px;
+    margin-top: -10px;
+    margin-right: -40px;
+}
+
+.overlay1 {
+    text-align: center;
+    margin-top: -620px;
+}
+
+.overlay2 {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 58%;
+    height: 65%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    clip-path: ellipse(50% 100% at 50% 100%);
+}
+
+.image-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 380px;
+    margin-top: 120px;
+}
+
+.arrow:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: border-color 0.3s ease;
+}
+
+.arrow-left:before {
+    transform: rotate(40deg);
+}
+
+.arrow-right:before {
+    transform: rotate(220deg);
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.arrow:hover:before {
+    border-color: white;
+}
+
+.img4 {
+    margin-top: 160px;
+    /* position:fixed; */
+    /* position: absolute; */
+}
+
+.img5 {
+    margin-top: 100px;
+    height: 600px;
+    width: 1620px;
+}
+
+.gradient-box {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to right, #474747 0%, #222222 41.8%);
+}
+
+.overlay3 {
+    /* margin-top:-500px;
+    margin-left: 140px; */
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 55%;
+    background: linear-gradient(to right, #474747 0%, #222222 41.8%);
+}
+
+.a2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: -120px;
+    height: 800px;
+}
+
+.a2 img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    width: 1620px;
+}
+
+.column {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    height: 10px;
+}
+
+.a3 {
+    width: 400px;
+    height: 200px;
+}
+
+.cont1 {
+    margin-top: 150px;
+}
+
+.circle-top {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.contain {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.box2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}

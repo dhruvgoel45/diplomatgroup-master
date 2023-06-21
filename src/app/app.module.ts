@@ -14,8 +14,14 @@ import { PantarikshComponent } from './pantariksh/pantariksh.component';
 import { ConstructionComponent } from './construction/construction.component';
 import { RightOverlayComponent } from './components/right-overlay/right-overlay.component';
 import { LeftOverlayComponent } from './components/left-overlay/left-overlay.component';
+import { HomeComponent } from './home/home.component';
+import { PgolflinkComponent } from './pgolflink/pgolflink.component';
+import { GalleryComponent } from './gallery/gallery.component';
 const routes: Routes=[
  { path:'',
+  component :HomeComponent
+},
+{ path:'aboutus',
   component :AboutusComponent
 },
 { path:'contact',
@@ -25,6 +31,16 @@ component :ContactusComponent
   path:"pantariksh",
   component: PantarikshComponent
 },
+{
+  path:"pgolflink",
+  component: PgolflinkComponent
+},
+{
+  path:"Gallery",
+  component: GalleryComponent
+},
+
+
 {
   path:"construction",
   component: ConstructionComponent
@@ -46,7 +62,10 @@ component :ContactusComponent
     PantarikshComponent,
     ConstructionComponent,
     RightOverlayComponent,
-    LeftOverlayComponent
+    LeftOverlayComponent,
+    HomeComponent,
+    PgolflinkComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
