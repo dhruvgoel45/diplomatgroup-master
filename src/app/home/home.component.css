@@ -209,8 +209,9 @@
     transform: translateX(-50%);
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: whitesmoke;
+    border-radius: 62px;
+    background: #FFF;
+    box-shadow: 0px 10px 15px 0px rgba(35, 135, 192, 0.15);
 }
 
 .contain {

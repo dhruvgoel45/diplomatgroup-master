@@ -8,10 +8,10 @@
 .image6::after {
     content: "";
     position: absolute;
-    margin-top: 10px;
-    margin-left: -1190px;
+    bottom: 3.4%;
+    left: 15%;
     width: 70%;
-    height: 85%;
+    height: 65%;
     background: linear-gradient(to top, rgba(25, 22, 22, 0.7) 0%, rgba(117, 113, 113, 0) 100%);
     /* background-color: rgb(41, 38, 38); */
     clip-path: ellipse(50% 90% at 50% 140%);
@@ -405,9 +405,10 @@ img{
 .imb {
     position: absolute;
     border: none;
-    bottom: -30px;
-    left: 300px;
+    bottom: 5%;
+    left: 22%;
     color: white;
+    z-index: 9999999;
 }
 
 
@@ -418,7 +419,8 @@ img{
 .imb2 {
     position: absolute;
     /* bottom: 2px; */
-    bottom: -30px;
-    right: 300px;
+    bottom: 5%;
+    right: 22%;
     color: white;
+    z-index: 9999999;
 }
