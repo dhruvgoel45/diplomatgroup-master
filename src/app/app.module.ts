@@ -17,6 +17,10 @@ import { LeftOverlayComponent } from './components/left-overlay/left-overlay.com
 import { HomeComponent } from './home/home.component';
 import { PgolflinkComponent } from './pgolflink/pgolflink.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { RightPantariskhOverlayComponent } from './components/right-pantariskh-overlay/right-pantariskh-overlay.component';
+import { LeftPantariskhOverlayComponent } from './components/left-pantariskh-overlay/left-pantariskh-overlay.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { CarouselsComponent } from './components/carousels/carousels.component';
 const routes: Routes=[
  { path:'',
   component :HomeComponent
@@ -65,7 +69,11 @@ component :ContactusComponent
     LeftOverlayComponent,
     HomeComponent,
     PgolflinkComponent,
-    GalleryComponent
+    GalleryComponent,
+    RightPantariskhOverlayComponent,
+    LeftPantariskhOverlayComponent,
+    CarouselComponent,
+    CarouselsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 58%;
+    right: 20%;
+    width: 150%;
+    /* Adjust the width as needed */
+    height: 50%;
+    background-color: white;
+    /* Adjust the overlay color and transparency as desired */
+    color: #fff;
+    /* Overlay text color */
+    padding: 20px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}

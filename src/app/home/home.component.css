@@ -26,7 +26,7 @@
     position: relative;
     display: inline-block;
     margin-top: 100px;
-    margin-bottom: -120px;
+    margin-bottom: -200px;
     height: 800px;
     width: 100%;
     max-width: 100%;
@@ -47,13 +47,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 81px;
     font-family: Poppins;
-    Font-style: Mixed;
-    Font-size: 100px;
-    width: 900px;
-    Line-height: 125px;
-    Line-height: 104%;
+    /* font-style: italic; */
+    font-weight: 200;
+    line-height: 104.023%;
+    text-transform: uppercase;
     position: absolute;
     text-align: center;
 }
@@ -172,17 +173,10 @@
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 55%;
     height: 55%;
-    background: linear-gradient(to right, #474747 0%, #222222 41.8%);
-}
-
-.a2 {
-    position: relative;
-    display: inline-block;
-    margin-top: 100px;
-    margin-bottom: -120px;
-    height: 800px;
+    background: linear-gradient(224deg, #474747 0%, #222 41.80%);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.08);
 }
 
 .a2 img {

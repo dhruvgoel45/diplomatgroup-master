@@ -46,9 +46,9 @@
     font-weight: 500;
     font-size: 17.4581px;
     line-height: 26px;
-    text-align: justify;
-    letter-spacing: 0.27em;
     color: #C4C4C4;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 
 .form-control {
