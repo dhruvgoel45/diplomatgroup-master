@@ -55,3 +55,56 @@
     background-color: transparent;
     color: #C4C4C4;
 }
+
+.custom-card {
+    background-color: transparent;
+}
+
+.custom-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.7042px;
+    line-height: 61px;
+    color: #FFED8B;
+}
+
+.custom-label {
+    color: #8D8D8D;
+}
+
+.custom-input {
+    color: #8D8D8D;
+}
+
+.custom-select-prefix {
+    background-color: transparent;
+}
+
+.custom-textarea {
+    color: #8D8D8D;
+}
+
+.custom-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40.7042px;
+    line-height: 61px;
+    text-align: justify;
+    color: #FFED8B;
+}
+
+.custom-link {
+    color: #C4C4C4;
+    font-size: 16.519px;
+    font-family: Poppins;
+}
+
+.custom-subheading {
+    color: #C4C4C4;
+    text-align: justify;
+    font-size: 30.689px;
+    font-family: Poppins;
+    font-weight: 500;
+}

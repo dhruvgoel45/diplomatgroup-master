@@ -44,3 +44,39 @@
     font-size: 14px;
     margin-right: 20px;
 }
+
+
+/* Media Queries for Mobile Responsiveness */
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .img-fluid {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        height: auto;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-link {
+        margin-bottom: 10px;
+    }
+    .img-fluid {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn1 {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}

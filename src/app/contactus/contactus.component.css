@@ -1,0 +1,15 @@
+.contact-container {
+    padding-left: 210px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-heading {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 39.2268px;
+    line-height: 103.8%;
+    margin-left: 10px;
+    color: #303033;
+}
