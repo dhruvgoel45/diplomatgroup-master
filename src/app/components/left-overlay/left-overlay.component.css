@@ -5,20 +5,18 @@
 
 .overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 400px;
+    top: 58%;
+    left: 20%;
+    width: 150%;
     /* Adjust the width as needed */
+    height: 50%;
     background-color: white;
     /* Adjust the overlay color and transparency as desired */
-    color: #303033;
+    color: #fff;
     /* Overlay text color */
     padding: 20px;
     /* Adjust padding as needed */
     box-sizing: border-box;
-    text-align: center;
 }
 
 .image-container img {
@@ -26,13 +24,39 @@
     height: auto;
 }
 
+.overlay button {
+    display: flex;
+    width: 184px;
+    height: 49.919px;
+    background-color: black;
+    color: white;
+    padding: 12.394px 39.247px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.885px;
+    flex-shrink: 0
+}
+
 
 /* Media Queries */
 
 @media (max-width: 767px) {
     .overlay {
-        font-size: 12px;
-        padding: 10px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 400px;
+        /* Adjust the width as needed */
+        background-color: white;
+        /* Adjust the overlay color and transparency as desired */
+        color: #303033;
+        /* Overlay text color */
+        padding: 20px;
+        /* Adjust padding as needed */
+        box-sizing: border-box;
+        text-align: center;
     }
     .overlay h3 {
         font-size: 25px;
@@ -45,49 +69,18 @@
     }
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 400px;
-    /* Adjust the width as needed */
-    background-color: white;
-    /* Adjust the overlay color and transparency as desired */
+.leftcont {
     color: #303033;
-    /* Overlay text color */
-    padding: 20px;
-    /* Adjust padding as needed */
-    box-sizing: border-box;
-    text-align: center;
+    text-align: justify;
+    font-size: 12.337px;
+    font-family: Poppins;
+    font-weight: 700;
 }
 
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-/* Media Queries */
-
-@media (max-width: 767px) {
-    .overlay {
-        font-size: 12px;
-        padding: 10px;
-    }
-    .overlay h3 {
-        font-size: 25px;
-    }
-    .overlay button {
-        width: 150px;
-        height: 40px;
-        padding: 10px;
-        font-size: 12px;
-    }
+.leftheading {
+    color: #303033;
+    font-size: 35.52px;
+    font-family: Chronicle Display;
+    font-weight: 325;
+    text-transform: uppercase;
 }

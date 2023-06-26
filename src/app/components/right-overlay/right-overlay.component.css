@@ -23,3 +23,35 @@
     max-width: 100%;
     height: auto;
 }
+
+.overlay h3 {
+    color: #303033;
+    font-size: 35.52px;
+    font-family: Chronicle Display;
+    font-weight: 325;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.overlay p {
+    color: #303033;
+    font-size: 12.337px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-align: justify;
+    text-align: right;
+}
+
+.overlay button {
+    display: flex;
+    width: 184px;
+    height: 49.919px;
+    background-color: black;
+    color: white;
+    padding: 12.394px 39.247px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.885px;
+    flex-shrink: 0;
+    float: right;
+}
