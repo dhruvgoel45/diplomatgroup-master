@@ -50,17 +50,6 @@
     /* Your button styles */
 }
 
-@media (max-width: 768px) {
-    .overlay {
-        font-size: 10vw;
-    }
-    .contact,
-    .time {
-        width: 100%;
-        font-size: 4vw;
-    }
-}
-
 .a2 {
     position: relative;
     display: inline-block;
@@ -248,7 +237,7 @@
     }
     .vision-title {
         font-size: 60px;
-        margin-left: 0;
+        margin-left: 0px;
         text-align: center;
     }
     .vision-content {
@@ -260,19 +249,17 @@
     }
     .read-more {
         width: auto;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-right: 20px;
     }
-}
-
-@media only screen and (max-width: 480px) {
-    .vision-title {
-        font-size: 40px;
+    .overlay {
+        font-size: 10vw;
     }
-}
-
-.vision-section {
-    display: flex;
+    .contact,
+    .time {
+        width: 100%;
+        font-size: 4vw;
+    }
 }
 
 .vision-title {

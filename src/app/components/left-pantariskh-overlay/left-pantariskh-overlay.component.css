@@ -1,25 +1,68 @@
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-.overlay {
-    position: absolute;
-    top: 58%;
-    left: 20%;
-    width: 150%;
-    /* Adjust the width as needed */
-    height: 50%;
-    background-color: white;
-    /* Adjust the overlay color and transparency as desired */
-    color: #fff;
-    /* Overlay text color */
-    padding: 20px;
-    /* Adjust padding as needed */
-    box-sizing: border-box;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
+                .image-container {
+                    position: relative;
+                    display: inline-block;
+                }
+                
+                .overlay {
+                    position: absolute;
+                    top: 58%;
+                    left: 20%;
+                    width: 150%;
+                    /* Adjust the width as needed */
+                    height: 50%;
+                    background-color: white;
+                    /* Adjust the overlay color and transparency as desired */
+                    color: #fff;
+                    /* Overlay text color */
+                    padding: 20px;
+                    /* Adjust padding as needed */
+                    box-sizing: border-box;
+                }
+                
+                .image-container img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+                .leftcont {
+                    color: #303033;
+                    text-align: justify;
+                    font-size: 12.337px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                }
+                
+                .leftheading {
+                    color: #303033;
+                    font-size: 35.52px;
+                    font-family: Chronicle Display;
+                    font-weight: 325;
+                    text-transform: uppercase;
+                }
+                /* Media query for mobile devices */
+                
+                @media (max-width: 767px) {
+                    .overlay {
+                        position: absolute;
+                        top: 80%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 90%;
+                        max-width: 400px;
+                        /* Adjust the width as needed */
+                        background-color: white;
+                        /* Adjust the overlay color and transparency as desired */
+                        color: #303033;
+                        /* Overlay text color */
+                        padding: 20px;
+                        /* Adjust padding as needed */
+                        box-sizing: border-box;
+                        text-align: center;
+                    }
+                    .leftcont {
+                        font-size: 10px;
+                    }
+                    .leftheading {
+                        font-size: 20px;
+                    }
+                }

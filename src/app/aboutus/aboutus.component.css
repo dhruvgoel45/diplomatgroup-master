@@ -1,1 +1,254 @@
 @import url('http://fonts.googleapis.com/css?family=Tangerine');
+
+/* Navbar */
+
+
+/* Banner */
+
+.banner-image {
+    background-image: url('../../assets/images/BANNER.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.vision-description {
+    padding: 8px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+
+/* Message Section */
+
+.section-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.8725px;
+    line-height: 105.3%;
+    text-transform: uppercase;
+    color: #242527;
+}
+
+.main-title {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 375;
+    font-size: 63.2661px;
+    line-height: 98.8%;
+    text-transform: capitalize;
+    color: #242527;
+}
+
+.quote {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46.9444px;
+    line-height: 68px;
+    margin-bottom: 2px;
+    color: #C7B36C;
+}
+
+.message {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5111px;
+    line-height: 23px;
+    text-align: justify;
+    color: #303033;
+}
+
+.signature {
+    text-align: end;
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 45.7848px;
+    line-height: 55px;
+    color: #262625;
+}
+
+.designation {
+    text-align: end;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.2737px;
+    line-height: 33px;
+    color: #262625;
+}
+
+
+/* Vision Section */
+
+.vision-title {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50.2085px;
+    line-height: 78px;
+    text-align: center;
+    padding-top: 35px;
+    color: #FFEB96;
+}
+
+.vision-description {
+    padding: 8px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* About Section */
+
+.about-description {
+    color: #303033;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+
+/* Newsletter and Footer */
+
+app-newsletter {
+    /* Add styling for the newsletter section */
+}
+
+app-footer {
+    /* Add styling for the footer */
+}
+
+
+/* Additional Styles */
+
+
+/* Example styles for buttons */
+
+.btn {
+    /* Add styles for buttons */
+}
+
+.btn-primary {
+    display: flex;
+    width: 246.14px;
+    height: 66.778px;
+    padding: 16.579px 52.501px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.211px;
+    flex-shrink: 0;
+    background: #131313;
+    /* Add styles for primary buttons */
+}
+
+
+/* Example styles for images */
+
+.img-fluid {
+    /* Add styles for fluid images */
+}
+
+.about-description {
+    color: #303033;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.banner1 {
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.71);
+    ;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .banner-image {
+        height: 200px;
+    }
+    .vision-title {
+        font-size: 32px;
+        line-height: 48px;
+        padding-top: 15px;
+    }
+    .vision-description {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 2px;
+    }
+    .section-title {
+        font-size: 16px;
+    }
+    .main-title {
+        font-size: 28px;
+    }
+    .quote {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .message {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .signature {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .designation {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about-description {
+        font-size: 12px;
+    }
+    .btn-primary {
+        font-size: 14px;
+    }
+    .overlay-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.71);
+        ;
+        z-index: 2;
+        border-radius: 10px;
+    }
+}

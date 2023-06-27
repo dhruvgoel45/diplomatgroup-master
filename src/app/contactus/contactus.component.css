@@ -13,3 +13,9 @@
     margin-left: 10px;
     color: #303033;
 }
+
+@media(max-width:768px) {
+    .contact-container {
+        padding-left: 30px;
+    }
+}

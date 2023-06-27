@@ -55,3 +55,48 @@
     flex-shrink: 0;
     float: right;
 }
+
+@media (max-width: 767px) {
+    .overlay {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 400px;
+        /* Adjust the width as needed */
+        background-color: white;
+        /* Adjust the overlay color and transparency as desired */
+        color: #303033;
+        /* Overlay text color */
+        padding: 20px;
+        /* Adjust padding as needed */
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .overlay h3 {
+        font-size: 25px;
+    }
+    .overlay button {
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+.leftcont {
+    color: #303033;
+    text-align: justify;
+    font-size: 12.337px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.leftheading {
+    color: #303033;
+    font-size: 35.52px;
+    font-family: Chronicle Display;
+    font-weight: 325;
+    text-transform: uppercase;
+}

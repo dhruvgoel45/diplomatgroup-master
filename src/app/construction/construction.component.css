@@ -1,3 +1,25 @@
+.heading {
+    color: #FFEB96;
+    Font-family: Chronicle Display;
+    Font-style: Roman;
+    Font-size: 60.71px;
+    Line-height: 63px;
+    Line-height: 104%;
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        color: #FFEB96;
+        Font-family: Chronicle Display;
+        Font-style: Roman;
+        Font-size: 40.71px;
+        Line-height: 63px;
+        Line-height: 104%;
+        margin-top: 25px;
+    }
+}
+
 .image-container {
     position: relative;
     display: inline-block;
